@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main{
+    width: 1880px;
+    padding-top: 5px;
+    position: fixed;
+    background-color: white;
+}
+
+
+#search{
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 125px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#search>img{
+    width: 250px;
+}
+
+
+#search input[type=text] {
+    height: 35px;
+    line-height: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 18px;
+    width: 690px;
+    display: inline-block;
+    padding-left: 10px;
+}
+#blue{
+    width:100%;
+    height:40px;
+    background-color: rgb(8, 6, 90);
+}
+
+#grid-container {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-left: 115px;
+   
+  }
+  
+#grid-container>#grid-item {
+       height:50px;
+       width:10px;
+       padding-right: 555px;
+  }
+
+  #grid-container>#grid-item>img{
+    height: 560px;
+    width: 560px;
+    padding-top:40px;
+  }
+
+#bac{
+    padding-top: 100px
+}
+
+#bac img{
+    width:100%;
+    height:500px;
+    padding-top:40px;
+}
+#catego {
+    display: flex;
+    align-items: center;
+    padding-top:30px;
+    padding-left:590px;
+    
+}
+#h3h4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 350px;
+    gap:500px;
+    font-size: 25px;
+    padding-top:25px;
+}
+#grid-con {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-left: 105px;
+    
+   
+  }
+  #grid-con h1{
+       padding-top:640px;
+       padding-left: 505px;
+       padding-bottom: 35px;
+  }
+  
+#grid-con-img{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+}
+
+#grid-con-img>#grid-i{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#grid-i>img{
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+#grid-con-content{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+    padding-bottom: 30px;
+}
+
+#grid-con-content>#grid-i{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#grid-con-content>#grid-i>h4{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*............................................................ trending.................................................................................. */
+#trending {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-left: 105px;
+    padding-bottom:20px;
+    
+   
+  }
+  #trending h1{
+      padding-top:60px;
+       padding-left: 505px;
+       
+  }
+  
+#trendgrid {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+}
+
+#trendgrid>#grids{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#grids>img{
+ 
+    margin-left: 55px;
+}
+
+#trendcon{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+   
+}
+
+#trendcon>#grids{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#trendcon>#grids>h4{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/*..............................................DEAL OF THE DAY...................................................*/
+#trendingd {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-left: 105px;
+    padding-bottom:20px;
+    
+   
+  }
+  #trendingd h1{
+      padding-top:60px;
+       padding-left: 505px;
+       
+  }
+  
+#trendgridd {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+}
+
+#trendgridd>#gridsd{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#gridsd>img{
+ 
+    margin-left: 55px;
+}
+
+#trendcond{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+   
+}
+
+#trendcond>#gridsd{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#trendcond>#gridsd>h4{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/*--------------------------------------------------media & pr ----------------------------------------------------------*/
+#trendingdd {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-left: 105px;
+    padding-bottom:20px;
+    
+   
+  }
+  #trendingdd h1{
+      padding-top:60px;
+       padding-left: 505px;
+       
+  }
+  
+#trendgriddd {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+}
+
+#trendgriddd>#gridsdd{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#gridsdd>img{
+ 
+    margin-left: 55px;
+}
+
+#trendcondd{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+   
+}
+
+#trendcondd>#gridsdd{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+#trendcondd>#gridsdd>h4{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#ico{
+    padding-left: 190px;
+    display: flex;
+    flex-direction: row;
+    gap:295px;
+}
+
+/*----------------------------------world of yardley------------------------------------------*/
+#trendingD{
+    display:flex;
+    padding-top:60px;
+    padding-left:520px;
+}
+#gridsD img{
+    height:240px;
+    width:350px;
+    flex-direction: row;
+}
+#trendgridD{
+    padding-top:30px;
+    display:flex;
+    gap:40px;
+    margin-left:120px;
+}
+#head{
+    padding-left:180px;
+    padding-top:60px;
+    display:flex;
+    flex-direction:row;
+    gap:150px;
+}
+/*.....................customer-------------*/
+
+#gridsDy img{
+    height:440px;
+    width:350px;
+    flex-direction: row;
+}
+#cus{
+    display:flex;
+    padding-top:60px;
+    padding-left:520px;
+}
+#cusc{
+    padding-top:30px;
+    display:flex;
+    gap:40px;
+    margin-left:120px;
+}
+#col img{
+    width:1420px;
+    height:400px;
+}
+
+
+
+
+
+
+
